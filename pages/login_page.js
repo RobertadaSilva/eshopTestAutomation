@@ -17,11 +17,11 @@ module.exports = {
 
 makeLoginWithSuccess() {
     I.fillField(this.fields.userName, 'standard_user')
-    I.fillField(this.fields.password, 'secret_sauce')
+    I.fillField(this.fields.password, secret('secret_sauce'))
 
     I.click(this.button.loginButton)
 
     I.waitForElement(this.labels.titleProductsPage, 10)
-    I.see('Products')
+    I.seeElement(this.labels.titleProductsPage)
   }
 }

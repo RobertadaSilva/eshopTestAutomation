@@ -19,5 +19,9 @@
   "devDependencies": {
     "codeceptjs": "^3.6.4",
     "playwright": "^1.45.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "faker": "^6.6.6"
   }
 }
