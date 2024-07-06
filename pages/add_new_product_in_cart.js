@@ -9,7 +9,7 @@ module.exports = {
     productJacket: '#item_5_title_link',
     productTshirt: '#item_3_title_link',
     addToCart: '#add-to-cart',
-     backFoward: '#back-to-products'
+    backFoward: '#back-to-products'
   },
 
   message:{},
